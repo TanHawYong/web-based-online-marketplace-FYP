@@ -1,0 +1,187 @@
+/*background*/
+  div img{
+    height:300px;
+    width:650px;
+    border-radius: 1em;
+    margin-left:9em;
+  }
+  
+  header img{
+    width:26;
+    height:26;
+  }
+
+  li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: separate;
+    border-radius: 0.8em;
+    z-index: 9; 
+
+    padding-top:0.7em;
+    padding-left: 1em;
+    padding-right: 0.6em;
+    
+    text-decoration: none;
+    color:white;
+    transition: transform .2s;
+  }
+
+  li:hover{
+    transform: scale(1.4); 
+  }
+
+  #navmenu{
+    transform: scale(1.5); 
+  }
+
+  hgroup {
+	padding: 0.5em;
+  }
+
+  nav {
+    position: absolute;
+    left:15em;
+    top:1em;
+    border-radius: 1em;
+    font-size: 1.2em; 
+    font-size: 1.125rem;
+  }
+
+  nav ul li {
+	 list-style: none;
+	 display: inline;
+  }
+
+    nav {
+	 padding: 0.25em;
+  }
+
+  nav a {
+   border: #000;
+	 padding: 0.25em;
+  }
+
+
+  .header {
+    position: relative;
+    background: #2c3e50;
+    height: 14vh;
+    padding:1em;
+    border-radius: 1em;
+  }
+
+
+  label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  body{
+    background-color: #e4e4e4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .thumbnail{
+    margin:1em;
+    float:left;
+  }
+  .tab {
+    overflow: hidden;
+    border-radius: 1em;
+    width: 260px;
+    padding-left: 10em;
+    padding-right: 14em;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    clear:both;
+    margin-left:2em;
+  }
+  
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    border-radius: 1em;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;margin-left:9em;
+  }
+  
+  /* Fade in tabs */
+  @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  .Category{
+    font-size: large;
+    padding: 1em;
+  }
+
+  
+  .header {
+    position: relative;
+    background: #2c3e50;
+    height: 14vh;
+    padding:1em;
+    border-radius: 1em;
+  }
+
+  .servicedetailcontainer{
+    background-color: #2c3e50;
+    border-radius: 1em;
+    margin-left:1em;
+    margin-right:1em;
+    padding-bottom: 5em;
+    color:white;
+  }
+
+  .submit {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 0.5em;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+  }
+  
+  
+
+  
+
+
+
+  

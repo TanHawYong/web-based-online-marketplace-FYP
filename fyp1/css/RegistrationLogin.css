@@ -1,0 +1,52 @@
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+body{
+  background-color:rgb(249, 249, 249);
+}
+#forms{
+  padding-top: 5em;
+  font-family: Arial;
+}
+
+
+#test{
+  display :inline-block;
+  padding: 1em;
+}
+
+
+#Register{
+  border-right: rgb(8, 118, 190) solid;
+  padding-right: 1em;
+}
+
+
+form{display:table;}
+
+p{display: table-row;}
+
+label{display: table-cell;padding:5px;}
+
+input{display: table-cell;}
+
+.formcontainer{
+  font-family: 'Gill Sans MT';
+  display: grid;
+  text-align: center;
+  width: 60%;
+  position: center;
+  width: fit-content;
+  margin-left: 5em;;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.sign{
+ padding-left:1em;
+}
